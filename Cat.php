@@ -1,18 +1,18 @@
 <?php
 Class Cat {
-	private $color;
-	private $name;
-	public funtion SetColor($value){
-		$this->color=$value;
-	}
-	public funtion GetColor(){
-		return $this->color;
-	}
-	public funtion SetName($value){
-		return $this->$value;
-	}
-	public funtion GetName(){
-		return $this->name;
-	}
+    private $color;
+    private $name;
+    public function SetColor($value){
+        $this->color=$value;
+    }
+    public function GetColor(){
+        return $this->color;
+    }
+    public function SetName($value){
+        $this->name=$value;
+    }
+    public function GetName(){
+        return $this->name;
+    }
 }
 ?>
